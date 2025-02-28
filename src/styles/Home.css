@@ -1,0 +1,52 @@
+.festive-banner {
+    background: linear-gradient(135deg, #ff8c00, #ff4500);
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 70px;
+  }
+  
+  .festive-banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .festive-banner p {
+    font-size: 1.2rem;
+  }
+  
+  .pricing-info {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+    text-align: center;
+  }
+  
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .pricing-item {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing-item.festive {
+    border: 2px solid #ff4500;
+    background-color: #fff5e6;
+  }
+  
+  .pricing-item h3 {
+    color: #8b5a2b;
+    margin-bottom: 0.5rem;
+  }
+  
+  .pricing-item.festive h3 {
+    color: #ff4500;
+  }
