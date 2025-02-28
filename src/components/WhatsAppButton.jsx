@@ -1,15 +1,16 @@
 import React from 'react';
+import { FaWhatsapp } from 'react-icons/fa'; // Ensure this import exists
 import '../styles/WhatsAppButton.css';
 
 function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/+919301680755?text=Hi, I'd like to order dung cakes!"
-      className="whatsapp-btn"
+      href="https://wa.me/919301680755"
       target="_blank"
       rel="noopener noreferrer"
+      className="whatsapp-button"
     >
-      <img src="/public/images/download.svg" alt="WhatsApp" />
+      <FaWhatsapp size={30} />
     </a>
   );
 }

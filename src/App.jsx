@@ -4,9 +4,9 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Home from './pages/Home';
 import Products from './pages/Products';
-import AboutUs from './pages/AboutUs'; // New
-import Blog from './pages/Blog'; // New
-import ContactUs from './pages/ContactUs'; // New
+import AboutUs from './pages/AboutUs';
+import Blog from './pages/Blog';
+import ContactUs from './pages/ContactUs';
 import { CartProvider } from './context/CartContext';
 
 function App() {
